@@ -53,49 +53,44 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: Android
+        link: 
+        link_text:
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+        ##### Android:
+        - UI: Jetpack Compose, Material, View Binding
+        - DI: Koin
+        - Сеть: Retrofit, OkHttp
+        - Потоки данных: Coroutines
+        - Хранение данных: Room, Jetpack DataStore
+
+        ##### Архитектура:
+        - MVVM, MVI, Clean
+
+        ##### Инструментарий:
+        - Github, Figma
+  - title: Участие в мероприятиях
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          - [Сертификат](https://disk.yandex.ru/d/ZldYG7hzEbXMZA) участника Зимней школы по программной инженерии НИУ ВШЭ - 2024
+          - Тренировки по алгоритмам 5.0 (Тренировки по алгоритмам от Яндекса)
+          - Активно посещаю конференции по мобильной разработке
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Московский политехнический университет
+        sub_title: Бакалавриат "Информатика и вычислительная техника"
+        caption: 2021 - 2025
+        description: | # this will include new lines to allow paragraphs
+          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          В процессе обучение разработал следующие проекты:
+
+          - MFC приложение по работе с API Inventor и Компас-3D (C++)
+          - Быстрый просмотрщик изображений в проводнике с кешированием (WPF/C#)
+          - Клиент-серверное веб-приложение по просмотру 3D моделей (Three.js)
+          - VR приложение с использованием отслеживания рук (Unity/C#)
 
 # Footer
 footer_show_references: true
