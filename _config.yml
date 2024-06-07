@@ -55,17 +55,17 @@ content:
       - layout: left
         title: Android
         description: | # this will include new lines to allow paragraphs
-        Android:
+        #### Android
           - UI: Jetpack Compose, Material, View Binding
           - DI: Koin
           - Сеть: Retrofit, OkHttp
           - Потоки данных: Coroutines
           - Хранение данных: Room, Jetpack DataStore
 
-        Архитектура:
+        #### Архитектура
           - MVVM, MVI, Clean
 
-        Инструментарий:
+        #### Инструментарий
           - Github, Figma
   - title: Участие в мероприятиях
     layout: text
@@ -91,7 +91,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title:
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
