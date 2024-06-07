@@ -54,27 +54,25 @@ content:
     content:
       - layout: left
         title: Android
-        link: 
-        link_text:
         description: | # this will include new lines to allow paragraphs
-        ##### Android:
-        - UI: Jetpack Compose, Material, View Binding
-        - DI: Koin
-        - Сеть: Retrofit, OkHttp
-        - Потоки данных: Coroutines
-        - Хранение данных: Room, Jetpack DataStore
+        Android:
+          - UI: Jetpack Compose, Material, View Binding
+          - DI: Koin
+          - Сеть: Retrofit, OkHttp
+          - Потоки данных: Coroutines
+          - Хранение данных: Room, Jetpack DataStore
 
-        ##### Архитектура:
-        - MVVM, MVI, Clean
+        Архитектура:
+          - MVVM, MVI, Clean
 
-        ##### Инструментарий:
-        - Github, Figma
+        Инструментарий:
+          - Github, Figma
   - title: Участие в мероприятиях
     layout: text
     content: | # this will include new lines to allow paragraphs
-          - [Сертификат](https://disk.yandex.ru/d/ZldYG7hzEbXMZA) участника Зимней школы по программной инженерии НИУ ВШЭ - 2024
-          - Тренировки по алгоритмам 5.0 (Тренировки по алгоритмам от Яндекса)
-          - Активно посещаю конференции по мобильной разработке
+            - [Сертификат](https://disk.yandex.ru/d/ZldYG7hzEbXMZA) участника Зимней школы по программной инженерии НИУ ВШЭ - 2024
+            - Тренировки по алгоритмам 5.0 (Тренировки по алгоритмам от Яндекса)
+            - Активно посещаю конференции по мобильной разработке
   - title: Образование
     layout: list
     content:
@@ -86,11 +84,10 @@ content:
           За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке.
 
           В процессе обучение разработал следующие проекты:
-
-          - MFC приложение по работе с API Inventor и Компас-3D (C++)
-          - Быстрый просмотрщик изображений в проводнике с кешированием (WPF/C#)
-          - Клиент-серверное веб-приложение по просмотру 3D моделей (Three.js)
-          - VR приложение с использованием отслеживания рук (Unity/C#)
+            - MFC приложение по работе с API Inventor и Компас-3D (C++)
+            - Быстрый просмотрщик изображений в проводнике с кешированием (WPF/C#)
+            - Клиент-серверное веб-приложение по просмотру 3D моделей (Three.js)
+            - VR приложение с использованием отслеживания рук (Unity/C#)
 
 # Footer
 footer_show_references: true
