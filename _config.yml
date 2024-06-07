@@ -55,17 +55,20 @@ content:
       - layout: left
         title: Android
         description: | # this will include new lines to allow paragraphs
-        #### Android
           - UI: Jetpack Compose, Material, View Binding
           - DI: Koin
           - Сеть: Retrofit, OkHttp
           - Потоки данных: Coroutines
           - Хранение данных: Room, Jetpack DataStore
 
-        #### Архитектура
+      - layout: left
+        title: Архитектура
+        description: | # this will include new lines to allow paragraphs
           - MVVM, MVI, Clean
 
-        #### Инструментарий
+      - layout: left
+        title: Инструментарий
+        description: | # this will include new lines to allow paragraphs
           - Github, Figma
   - title: Участие в мероприятиях
     layout: text
