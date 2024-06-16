@@ -59,7 +59,7 @@ content:
           - DI: Koin
           - Сеть: Retrofit, OkHttp
           - Потоки данных: Coroutines
-          - Хранение данных: Room, Jetpack DataStore
+          - Хранение данных: Room, Jetpack DataStore, S3
 
       - layout: left
         title: Архитектура
