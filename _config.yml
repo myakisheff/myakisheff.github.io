@@ -64,7 +64,7 @@ content:
       - layout: left
         title: Архитектура
         description: | # this will include new lines to allow paragraphs
-          - MVVM, MVI, Clean
+          - MVVM, MVI, Clean, UDF
 
       - layout: left
         title: Инструментарий
